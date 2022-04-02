@@ -5,7 +5,7 @@ function setup() {
   let res = 10;
   let r = Math.floor(innerHeight/res)
   let c = Math.floor(innerWidth/res)
-  let algorithm = 2;
+  let algorithm = 1;
  createCanvas(innerWidth,innerHeight);
   grid = new Grid(res*c,res*r,res)
   grid.initArr()
